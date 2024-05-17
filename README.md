@@ -1,8 +1,8 @@
 A simple script to initialize python projects.
 
 # Installation:
-Download the repo
-Make sure you are in the directory containing the setup.py file.
+Download the repo<br>
+Make sure you are in the directory containing the setup.py file.<br>
 pip install .
 
 I haven't made this available to pypi so you will have to
