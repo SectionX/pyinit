@@ -1,0 +1,37 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyinit"
+version = "0.1"
+dependencies = []
+requires-python = ">=3.8"
+authors = [
+{name = "Eli Stouraitis", email = "h.stoyraitis@gmail.com"},
+]
+maintainers = []
+description = "Initialize a basic project structure for your new python app"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["add", "keywords", "for", "pypa"]
+classifiers = [
+"Programming Language :: Python",
+]
+
+[project.optional-dependencies]
+
+[project.urls]
+Homepage = ""
+Documentation = ""
+Repository = ""
+"Bug Tracker" = ""
+Changelog = ""
+
+[project.scripts]
+pyinit = "pyinit:__main__.main"
+
+[project.gui-scripts]
+
+[project.entry-points]

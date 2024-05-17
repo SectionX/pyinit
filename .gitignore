@@ -1,0 +1,6 @@
+install.sh
+uninstall.sh
+build/
+pyinit.egg-info
+**/__pycache__
+    
