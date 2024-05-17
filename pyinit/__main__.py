@@ -74,7 +74,7 @@ Repository = ""
 Changelog = ""
 
 [project.scripts]
-pyinit = "{app_name}:__main__"
+{app_name} = "{app_name}:__main__.main()"
 
 [project.gui-scripts]
 
