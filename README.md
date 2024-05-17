@@ -16,7 +16,7 @@ pyinit will create a basic structure
 
 app/src/
 app/tests/
-app/__main__.py
+app/\__main__.py
 
 some basic package conf files
 an MIT License
@@ -32,7 +32,7 @@ accidentally.
 By default the toml file is configured to create
 a command with your appname in the terminal.
 
-This script will run the main() function of __main__.py file.
+This script will run the main() function of \__main__.py file.
 
 # Why did I make this:
 For practice mostly and because testing doesn't work well
@@ -68,7 +68,7 @@ earlier, is that you should try to run your code from outside
 the project directory, otherwise you will make mistakes with
 either pathing or imports.
 
-Forget about relative pathing and get used to __file__ dunder
+Forget about relative pathing and get used to \__file__ dunder
 and the pathing module. Always use paths relative to either
 the package top directory, or the module you are importing.
 
