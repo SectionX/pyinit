@@ -63,6 +63,7 @@ keywords = ["add", "keywords", "for", "pypa"]
 classifiers = [
 "Programming Language :: Python",
 ]
+packages = ['/{app_name}', '/{app_name}/src']
 
 [project.optional-dependencies]
 
