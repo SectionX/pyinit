@@ -63,7 +63,9 @@ keywords = ["add", "keywords", "for", "pypa"]
 classifiers = [
 "Programming Language :: Python",
 ]
-packages = ['/{app_name}', '/{app_name}/src']
+
+[tool.setuptools]
+packages = ['to_tree', 'to_tree.src']
 
 [project.optional-dependencies]
 
