@@ -65,7 +65,7 @@ classifiers = [
 ]
 
 [tool.setuptools]
-packages = ['to_tree', 'to_tree.src']
+packages = ['{app_name}', '{app_name}.src']
 
 [project.optional-dependencies]
 
