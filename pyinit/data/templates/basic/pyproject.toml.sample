@@ -4,12 +4,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pyinit"
-version = "0.9"
+name = "{app_name}"
+version = "0.1"
 dependencies = []
 requires-python = ">=3.8"
 authors = [
-{name = "Eli Stouraitis", email = "h.stoyraitis@gmail.com"},
+{name = "YourName", email = "YourEmail"},
 ]
 maintainers = []
 description = "Initialize a basic project structure for your new python app"
@@ -19,6 +19,9 @@ keywords = ["add", "keywords", "for", "pypa"]
 classifiers = [
 "Programming Language :: Python",
 ]
+
+[tool.setuptools]
+packages = ['{app_name}', '{app_name}.src']
 
 [project.optional-dependencies]
 
@@ -30,7 +33,7 @@ Repository = ""
 Changelog = ""
 
 [project.scripts]
-pyinit = "pyinit:__main__.main"
+pyinit = "{app_name}:__main__.main"
 
 [project.gui-scripts]
 
