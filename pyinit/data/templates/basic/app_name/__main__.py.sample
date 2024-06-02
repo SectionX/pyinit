@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+def main():
+    pass
+
+if __name__ == '__main__':
+    main()
+=======
 import sys
 import pathlib
 import argparse
@@ -38,6 +45,5 @@ def main():
     else:
         venv.main(['venv'])
     print(args)
+>>>>>>> a98e4a9 (ADD project templates logic)
 
-if __name__ == '__main__':
-    main()
