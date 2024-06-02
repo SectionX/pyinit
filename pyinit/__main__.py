@@ -39,3 +39,5 @@ def main():
         venv.main(['venv'])
     print(args)
 
+if __name__ == '__main__':
+    main()
