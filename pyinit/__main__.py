@@ -5,7 +5,7 @@ import venv
 from pyinit.src.initializer import initialize_project
 
 parser = argparse.ArgumentParser(__name__.split('.')[0], description='Initialize Python Projects')
-parser.add_argument('-t', '--type', required=False, default='basic', help='Choose between available project types. Type "pyinit list" to see the available templates')
+parser.add_argument('-t', '--type', required=False, default='basic-cli', help='Choose between available project types. Type "pyinit list" to see the available templates')
 parser.add_argument('-n', '--name', required=False, default='', action='store')
 parser.add_argument('--no-venv', required=False, default=False, action='store_true', help='Add this option if you don\'t want to use Python\'s venv module')
 parser.add_argument('--list', default=False, action='store_true', help='Shows a list of available project templates and exits')

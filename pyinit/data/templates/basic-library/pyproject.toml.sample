@@ -12,7 +12,7 @@ authors = [
 {name = "YourName", email = "YourEmail"},
 ]
 maintainers = []
-description = "Initialize a basic project structure for your new python app"
+description = "Add a description of your project"
 readme = "README.md"
 license = {file = "LICENSE"}
 keywords = ["add", "keywords", "for", "pypa"]
@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 [tool.setuptools]
-packages = ['{app_name}', '{app_name}.src']
+packages = ['{app_name}']
 
 [project.optional-dependencies]
 
@@ -33,7 +33,6 @@ Repository = ""
 Changelog = ""
 
 [project.scripts]
-pyinit = "{app_name}:__main__.main"
 
 [project.gui-scripts]
 
