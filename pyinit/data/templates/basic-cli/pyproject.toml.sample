@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 [tool.setuptools]
-packages = ['{app_name}', '{app_name}.src']
+packages = ["{app_name}", "{app_name}.src"]
 
 [project.optional-dependencies]
 
