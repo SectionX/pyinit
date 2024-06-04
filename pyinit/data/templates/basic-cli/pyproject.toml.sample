@@ -9,7 +9,7 @@ version = "0.1"
 dependencies = []
 requires-python = ">=3.8"
 authors = [
-{name = "YourName", email = "YourEmail"},
+{name = "YourName", email = "Youremail@mail.tld"},
 ]
 maintainers = []
 description = "Add a description of your project"
