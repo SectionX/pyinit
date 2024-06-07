@@ -1,7 +1,0 @@
-install-edit.sh
-build/
-pyinit.egg-info
-**/__pycache__
-.env
-venv
-.venv
