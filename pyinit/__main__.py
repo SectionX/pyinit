@@ -24,9 +24,12 @@ def main():
         sys.exit(0)
 
     if _name:
-        app_name = _name
+        if '-' in _name:
+            print('Implicitly replacing - with _ because it creates conflicts.')
+            print('If you want to use the original name in scripts, edit the [project.scripts] section of pyproject.toml') 
+        app_name = _name.replace('-', '=')
     else:
-        app_name = pathlib.Path.cwd().name
+        app_name = pathlib.Path.cwd().name.replace('-', '_')
         user_input = input(f'No app name was given, do you want it to be {app_name} (Y/n)?')
         if not (user_input == '' or user_input.lower() == 'y'):
             print('Stopping execution.')
