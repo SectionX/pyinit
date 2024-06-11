@@ -9,3 +9,4 @@ pyinit.egg-info
 .mypy_cache
 .pytest_cache
 .tox
+.test_commit.sh
