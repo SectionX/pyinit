@@ -1,3 +1,3 @@
 pytest --cov --cov-fail-under=80
-flake8 --exclude .*,__pycache__,venv,tests
-mypy {app_name}
+flake8 --exclude .*,__pycache__,venv,tests --max-line-length 88
+mypy {app_name} --check-untyped-defs --exclude tests --ignore-missing-imports

@@ -2,6 +2,15 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+# Uncomment the following lines to allow pip
+# install dependencies from other sites except
+# PyPA.
+# For example:
+# dependendies = ["modulename@git+ssh://git@github.com:AuthorName/modulename@main"]
+#[tool.hatch.metadata]
+#allow-direct-references = true
+
+
 [project]
 name = "pyinit"
 version = "1"

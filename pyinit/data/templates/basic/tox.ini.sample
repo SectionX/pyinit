@@ -12,11 +12,11 @@ commands = pytest --cov --cov-fail-under=80
 description = flake8 linting
 skip_install = true
 deps = flake8
-commands = flake8 --exclude .*,__pycache__,venv,tests
+commands = flake8 --exclude .*,__pycache__,venv,tests --max-line-length 88
 
 [testenv:types]
 description = mypy type checking 
 skill_install = true
 deps = mypy
-commands = mypy {app_name}
+commands = mypy {app_name} --check-untyped-defs --exclude tests --ignore-missing-imports
 
